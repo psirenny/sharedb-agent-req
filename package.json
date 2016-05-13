@@ -34,5 +34,5 @@
     "lib": "rollup src/index.js --config rollup.config.js --output lib/index.js",
     "prepublish": "npm run lib"
   },
-  "version": "1.0.0"
+  "version": "1.0.1"
 }
