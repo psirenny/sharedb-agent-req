@@ -17,10 +17,12 @@
   "homepage": "https://github.com/psirenny/sharedb-agent-req#readme",
   "license": "Unlicense",
   "keywords": [
+    "agent",
     "Derby",
-    "Primus",
+    "middleware",
     "Racer",
-    "Socket"
+    "request",
+    "sharedb"
   ],
   "main": "lib/index.js",
   "name": "sharedb-agent-req",
