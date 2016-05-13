@@ -1,6 +1,6 @@
 # sharedb-agent-req
 
-Make sharedb requests available to the agent.
+Sharedb middleware exposing the share request object to the connect agent.
 
 ## Installation
 
