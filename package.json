@@ -1,0 +1,36 @@
+{
+  "author": "Dennis Torres <djtorres0@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/psirenny/sharedb-agent-req/issues"
+  },
+  "description": "Make sharedb requests available to the agent.",
+  "devDependencies": {
+    "babel-eslint": "6.0.4",
+    "babel-preset-es2015-rollup": "1.1.1",
+    "browserify": "13.0.1",
+    "eslint": "2.9.0",
+    "eslint-config-xo-space": "0.13.0",
+    "eslint-plugin-babel": "3.2.0",
+    "rollup": "0.26.3",
+    "rollup-plugin-babel": "2.4.0"
+  },
+  "homepage": "https://github.com/psirenny/sharedb-agent-req#readme",
+  "license": "Unlicense",
+  "keywords": [
+    "Derby",
+    "Primus",
+    "Racer",
+    "Socket"
+  ],
+  "main": "lib/index.js",
+  "name": "sharedb-agent-req",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/psirenny/sharedb-agent-req.git"
+  },
+  "scripts": {
+    "lib": "rollup src/index.js --config rollup.config.js --output lib/index.js",
+    "prepublish": "npm run lib"
+  },
+  "version": "1.0.0"
+}
